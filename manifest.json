@@ -1,7 +1,7 @@
 {
-  "name": "Fuerza & Pelea",
-  "short_name": "Fuerza&Pelea",
-  "description": "Mi plan de entrenamiento de 12 semanas",
+  "name": "Entrenamiento en casa",
+  "short_name": "Entreno",
+  "description": "Planes de entrenamiento de Jimmy y Janella",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

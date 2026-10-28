@@ -1,5 +1,5 @@
 // Guarda la app en el dispositivo para que funcione sin internet
-const CACHE = 'fuerza-pelea-v1';
+const CACHE = 'fuerza-pelea-v2';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-maskable.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
